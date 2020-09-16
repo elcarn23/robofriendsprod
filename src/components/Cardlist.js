@@ -14,9 +14,9 @@ const Cardlist = ({robots}) => {
         );
     });
 
-    if (true) {
-        throw new Error("Test Error") 
-    } 
+    // if (true) {
+    //     throw new Error("Test Error") 
+    // } 
     return (
         <>
             {cardComponents}
