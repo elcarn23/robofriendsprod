@@ -16,7 +16,7 @@ const App = () => {
 
     // Load up the robots from json placeholder
     React.useEffect(() => {
-        fetch("http://jsonplaceholder.typicode.com/users").then(response => {
+        fetch("https://jsonplaceholder.typicode.com/users").then(response => {
             return response.json();
         }).then(users => {
             setRobotsList(users);
