@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Sega';
+    src: local('SEGA'), url(../fonts/SEGA.TTF) format('truetype');
+  }
+
+  h1 {
+      font-family: "Sega";
+      font-weight: 200;
+      color: #0ccac4;
+  }
